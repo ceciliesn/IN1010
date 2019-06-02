@@ -1,5 +1,5 @@
 # Obliger
-Obligatoriske oppgaver i emnet IN11010 Objektorientert programmering ved Universitetet i Oslo. (https://www.uio.no/studier/emner/matnat/ifi/IN1010)
+Obligatoriske oppgaver i emnet IN1010 Objektorientert programmering ved Universitetet i Oslo. (https://www.uio.no/studier/emner/matnat/ifi/IN1010)
 
 Oblig 1: Klasser og objekter.
 Oblig 2: Arv, subklasser, grensesnitt + integrasjonstest.
