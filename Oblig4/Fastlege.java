@@ -5,7 +5,7 @@ public class Fastlege extends Lege implements Kommuneavtale{
   public Fastlege (String navn, int avtaleNummer){
     super(navn);
     this.avtaleNummer = avtaleNummer;
-    }
+  }
 
   public int hentAvtaleNummer(){
     return avtaleNummer;

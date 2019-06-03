@@ -1,19 +1,15 @@
-import java.util.ArrayList;
-
 public abstract class Legemiddel {
   private String navn;
   private double pris;
   private double virkestoff;
-  private static int legemiddelId = -1; //settes til -1 da første obj. skal ha id 0
+  private static int legemiddelId;
   private int id;
-
 
   public Legemiddel (String navn, double pris, double virkestoff) {
     this.navn = navn;
     this.pris = pris;
     this.virkestoff = virkestoff;
-    legemiddelId++;
-    this.id = legemiddelId;
+    this.id = legemiddelId ++;
   }
 
   public int hentId() {
@@ -47,5 +43,4 @@ public abstract class Legemiddel {
 
     return s1 + "\n" + s2 + "\n" + s3;
   }
-
 }

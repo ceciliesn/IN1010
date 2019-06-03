@@ -143,6 +143,7 @@ class Lenkeliste<T> implements Liste<T>{
     return x;
   }
 
+  //iterator-objektet
   public Iterator<T> iterator(){
     return new LenkelisteIterator();
   }
@@ -157,25 +158,25 @@ class Lenkeliste<T> implements Liste<T>{
    }
   }
 
-  //lenkeliste-iterator
+  //Iterator-grensesnitt som beskriver selve iterator-objektet som brukes for å gjennom listen.
   public class LenkelisteIterator implements Iterator<T>{
     //private Lenkeliste<T> lenkeliste;
 
     Node aktivNode = startNode;
 
-  public boolean hasNext(){
-    return aktivNode != null;
-  }
-
-  public T next(){
-    if (hasNext()){
-      T t = aktivNode.x;
-      aktivNode = aktivNode.neste;
-      return t;
+    public boolean hasNext(){
+      return aktivNode != null;
     }
 
-    throw new NoSuchElementException();
-  }
+    public T next(){
+      if (hasNext()){
+        T t = aktivNode.x;
+        aktivNode = aktivNode.neste;
+        return t;
+      }
 
-}
+      throw new NoSuchElementException();
+    }
+
+  }
 }

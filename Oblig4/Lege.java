@@ -13,6 +13,7 @@ public class Lege implements Comparable<Lege> {
     return legeNavn;
   }
 
+  //metode for bruk av grensesnittet Comparable, lar oss sammenligne legenavn
   public int compareTo(Lege lege){
     return this.legeNavn.compareTo(lege.legeNavn);
   }
@@ -21,12 +22,12 @@ public class Lege implements Comparable<Lege> {
     legeResepter.leggTil(resept);
   }
 
+  //henter listen med utskrevne resepter
   public Lenkeliste<Resept> hentResepter(){
     return legeResepter;
   }
 
-public String toString(){
+  public String toString(){
     return this.legeNavn;
   }
-
 }

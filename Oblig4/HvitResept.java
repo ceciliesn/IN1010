@@ -2,9 +2,9 @@ public abstract class HvitResept extends Resept{
   private String reseptfarge = "Hvit";
   private double pris;
 
-    public HvitResept(Legemiddel legemiddel, Lege utskrivendeLege, Pasient pasient, int reit){
-      super(legemiddel, utskrivendeLege, pasient, reit);
-    }
+  public HvitResept(Legemiddel legemiddel, Lege utskrivendeLege, Pasient pasient, int reit){
+    super(legemiddel, utskrivendeLege, pasient, reit);
+  }
 
   public double prisAaBetale(){
     pris = hentLegemiddel().hentPris();

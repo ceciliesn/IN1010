@@ -1,7 +1,7 @@
 public abstract class Resept {
   private int reit;
   private int id;
-  private static int reseptId = -1;
+  private static int reseptId;
   private Legemiddel legemiddel;
   private Lege lege;
   private Pasient pasient;
@@ -9,8 +9,7 @@ public abstract class Resept {
   public Resept (Legemiddel legemiddel, Lege lege, Pasient pasient, int reit){
     this.legemiddel = legemiddel;
     this.lege = lege;
-    reseptId++;
-    this.id = reseptId;
+    this.id = reseptId ++;
     this.pasient = pasient;
     this.reit = reit;
   }
@@ -39,9 +38,9 @@ public abstract class Resept {
     if (reit >= 1){
       reit--;
       return true;
-      }
-    return false;
     }
+    return false;
+  }
 
   abstract public String farge();
 

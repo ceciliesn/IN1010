@@ -10,7 +10,7 @@ public class PResept extends HvitResept{
     pris = hentLegemiddel().hentPris();
     if (pris >= 116){
       return pris - 116;
-      }
+    }
     return pris;
   }
 }

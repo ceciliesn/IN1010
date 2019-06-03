@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-
 public class Pasient {
-  private static int pasId = 0;
+  private static int pasId;
   private String pasientNavn;
   private String fnr;
   private int pasientID;
@@ -11,8 +9,7 @@ public class Pasient {
   public Pasient(String pasientNavn, String fnr) {
     this.pasientNavn = pasientNavn;
     this.fnr = fnr;
-    pasId++;
-    this.pasientID = pasId;
+    this.pasientID = pasId ++;
     pasientResepter = new Stabel<>();
   }
 

@@ -16,5 +16,5 @@ public class LegemiddelA extends Legemiddel {
     s2 = "Narkotisk styrke: " + this.styrke;
 
     return s1 + "\n" + s2;
-}
+  }
 }
