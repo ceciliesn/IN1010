@@ -42,7 +42,6 @@ public class Monitor {
         else {
           henteMelding = meldingsliste.remove(0);
         }
-
     }
     catch (InterruptedException e){}
     finally {
@@ -50,5 +49,4 @@ public class Monitor {
     }
     return henteMelding;
   }
-
 }

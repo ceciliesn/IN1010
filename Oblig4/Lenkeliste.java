@@ -143,7 +143,7 @@ class Lenkeliste<T> implements Liste<T>{
     return x;
   }
 
-  //iterator-objektet
+  //lager selve iterator-objektet
   public Iterator<T> iterator(){
     return new LenkelisteIterator();
   }
@@ -158,7 +158,7 @@ class Lenkeliste<T> implements Liste<T>{
    }
   }
 
-  //Iterator-grensesnitt som beskriver selve iterator-objektet som brukes for å gjennom listen.
+  //Lager klasse som implementerer Iterator-grensesnittet. Dette beskriver selve iterator-objektet som brukes for å gjennom listen.
   public class LenkelisteIterator implements Iterator<T>{
     //private Lenkeliste<T> lenkeliste;
 

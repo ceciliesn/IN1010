@@ -10,7 +10,7 @@ class Lenkeliste<T> implements Liste<T>{
   }
 
 
-  //legger inn et nytt element i listen og skyver neste element ett hakk lenger bak
+  //legger inn et nytt element på gitt posisjon i listen og skyver neste element ett hakk lenger bak
   @Override
   public void leggTil(int pos, T x){
     if (pos < 0){
@@ -33,7 +33,7 @@ class Lenkeliste<T> implements Liste<T>{
         aktivNode = aktivNode.neste;
         aktivPosisjon++;
       }
-
+      
       Node nyNode = new Node(x);
       nyNode.neste = aktivNode.neste;
       aktivNode.neste = nyNode;

@@ -1,5 +1,3 @@
-import java.util.Iterator;
-
 public class Lege implements Comparable<Lege> {
   private String legeNavn;
   private Lenkeliste<Resept> legeResepter;

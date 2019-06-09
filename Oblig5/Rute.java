@@ -1,7 +1,6 @@
 public abstract class Rute {
   protected int kolonnePlass;
   protected int radPlass;
-
   protected Labyrint labyrint;
   protected Rute naboNord;
   protected Rute naboSoer;

@@ -56,6 +56,7 @@ public class Hovedprogram extends Application {
 
       //lager og gir funksjonalitet til knapp for valg av labyrintfil
       Button valgKnapp = new Button ("Last inn labyrintfil");
+      valgKnapp.setStyle("-fx-background-color: #ff0000;");
       valgKnapp.setOnAction(new EventHandler<ActionEvent>(){
       @Override
       public void handle(ActionEvent event){

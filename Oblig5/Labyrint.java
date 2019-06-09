@@ -83,9 +83,9 @@ public class Labyrint {
           naboVest = rutenett[kolonne - 1][rad];
         }
         rutenett[kolonne][rad].settRutesNaboer(naboNord, naboSoer, naboOest, naboVest);
-        }
       }
     }
+  }
 
   // Finner utveiene fra en rute på gitt plass, legger utveiene i liste og returnerer listen
   public Liste<String> finnUtveiFra(int kolonne, int rad) {

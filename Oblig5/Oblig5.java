@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+//Allerede ferdigskrevet klasse som skal brukes som hovedprogram
 class Oblig5 {
     public static void main(String[] args) {
         String filnavn = null;
