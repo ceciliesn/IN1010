@@ -7,5 +7,5 @@ Oblig 3: Lenkelister, køer, stabel, prioritetskø + feilhåndtering.
 Oblig 4: Sammensatt system ved bruk av oblig 2 og oblig 3.  
 Oblig 5: Rekursjon.  
 Oblig 6: Tråder.  
-Oblig 7: GUI av oblig 6 ved bruk av JavaFX.
+Oblig 7: GUI av oblig 5, laget visuell fremstilling av labyrint ved bruk av JavaFX.
 
