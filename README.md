@@ -1,11 +1,10 @@
 # Obliger
-Obligatoriske oppgaver i emnet IN1010 Objektorientert programmering ved Universitetet i Oslo, vår 2018.
+Mandatory assignments in the course IN1010 at the University of Oslo, spring 2018
 
-Oblig 1: Klasser og objekter.  
-Oblig 2: Arv, subklasser, grensesnitt + integrasjonstest.  
-Oblig 3: Lenkelister, køer, stabel, prioritetskø + feilhåndtering.  
-Oblig 4: Sammensatt system ved bruk av oblig 2 og oblig 3.  
-Oblig 5: Rekursjon.  
-Oblig 6: Tråder.  
-Oblig 7: GUI av oblig 5, laget visuell fremstilling av labyrint ved bruk av JavaFX.
-
+Assignment 1: Classes and objects.  
+Assignment 2: Inheritance, subclasses, interfaces + integration testing.  
+Assignment 3: Linked Lists, queues, stacks, priority queues + error handling.
+Assignment 4: Composed system by use of assignment 2 and 3.  
+Assignment 5: Recursion.  
+Assignment 6: Threads,
+Assignment 7: GUI of assignment 5. Created a visual representation of the labyrinth using JavaFX.
